@@ -1,0 +1,2618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SawtoothSDKSwift::SawtoothSDKSwiftPackageTests::ProductTarget" /* SawtoothSDKSwiftPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_323 /* Build configuration list for PBXAggregateTarget "SawtoothSDKSwiftPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_326 /* PBXTargetDependency */,
+				OBJ_328 /* PBXTargetDependency */,
+			);
+			name = SawtoothSDKSwiftPackageTests;
+			productName = SawtoothSDKSwiftPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_247 /* MPSCSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* MPSCSwift.swift */; };
+		OBJ_248 /* queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* queue.swift */; };
+		OBJ_255 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Package.swift */; };
+		OBJ_261 /* authorization.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* authorization.pb.swift */; };
+		OBJ_262 /* batch.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* batch.pb.swift */; };
+		OBJ_263 /* block.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* block.pb.swift */; };
+		OBJ_264 /* block_info.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* block_info.pb.swift */; };
+		OBJ_265 /* client_batch.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* client_batch.pb.swift */; };
+		OBJ_266 /* client_batch_submit.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* client_batch_submit.pb.swift */; };
+		OBJ_267 /* client_block.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* client_block.pb.swift */; };
+		OBJ_268 /* client_event.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* client_event.pb.swift */; };
+		OBJ_269 /* client_list_control.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* client_list_control.pb.swift */; };
+		OBJ_270 /* client_peers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* client_peers.pb.swift */; };
+		OBJ_271 /* client_receipt.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* client_receipt.pb.swift */; };
+		OBJ_272 /* client_state.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* client_state.pb.swift */; };
+		OBJ_273 /* client_status.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* client_status.pb.swift */; };
+		OBJ_274 /* client_transaction.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* client_transaction.pb.swift */; };
+		OBJ_275 /* consensus.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* consensus.pb.swift */; };
+		OBJ_276 /* events.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* events.pb.swift */; };
+		OBJ_277 /* genesis.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* genesis.pb.swift */; };
+		OBJ_278 /* identity.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* identity.pb.swift */; };
+		OBJ_279 /* merkle.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* merkle.pb.swift */; };
+		OBJ_280 /* network.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* network.pb.swift */; };
+		OBJ_281 /* processor.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* processor.pb.swift */; };
+		OBJ_282 /* setting.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* setting.pb.swift */; };
+		OBJ_283 /* state_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* state_context.pb.swift */; };
+		OBJ_284 /* transaction.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* transaction.pb.swift */; };
+		OBJ_285 /* transaction_receipt.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* transaction_receipt.pb.swift */; };
+		OBJ_286 /* validator.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* validator.pb.swift */; };
+		OBJ_288 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */; };
+		OBJ_296 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Engine.swift */; };
+		OBJ_297 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Service.swift */; };
+		OBJ_298 /* ZMQDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ZMQDriver.swift */; };
+		OBJ_299 /* ZMQService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* ZMQService.swift */; };
+		OBJ_300 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Stream.swift */; };
+		OBJ_301 /* ZMQStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* ZMQStream.swift */; };
+		OBJ_302 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Handler.swift */; };
+		OBJ_303 /* TransactionProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* TransactionProcessor.swift */; };
+		OBJ_304 /* ZMQContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* ZMQContext.swift */; };
+		OBJ_305 /* SECP256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* SECP256k1.swift */; };
+		OBJ_307 /* ZeroMQSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ZeroMQSwift::ZeroMQSwift::Product" /* ZeroMQSwift.framework */; };
+		OBJ_308 /* MPSCSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MPSCSwift::MPSCSwift::Product" /* MPSCSwift.framework */; };
+		OBJ_309 /* SawtoothProtoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SawtoothSDKSwift::SawtoothProtoSwift::Product" /* SawtoothProtoSwift.framework */; };
+		OBJ_310 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */; };
+		OBJ_321 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_334 /* EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* EngineTests.swift */; };
+		OBJ_335 /* SawtoothSDKSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* SawtoothSDKSwiftTests.swift */; };
+		OBJ_336 /* ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* ServiceTests.swift */; };
+		OBJ_337 /* StreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* StreamTests.swift */; };
+		OBJ_338 /* TransactionProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* TransactionProcessorTests.swift */; };
+		OBJ_339 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* XCTestManifests.swift */; };
+		OBJ_340 /* ZMQDriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* ZMQDriverTests.swift */; };
+		OBJ_341 /* ZMQServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* ZMQServiceTests.swift */; };
+		OBJ_343 /* SawtoothSDKSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SawtoothSDKSwift::SawtoothSDKSwift::Product" /* SawtoothSDKSwift.framework */; };
+		OBJ_344 /* ZeroMQSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ZeroMQSwift::ZeroMQSwift::Product" /* ZeroMQSwift.framework */; };
+		OBJ_345 /* MPSCSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MPSCSwift::MPSCSwift::Product" /* MPSCSwift.framework */; };
+		OBJ_346 /* SawtoothProtoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SawtoothSDKSwift::SawtoothProtoSwift::Product" /* SawtoothProtoSwift.framework */; };
+		OBJ_347 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */; };
+		OBJ_358 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Context.swift */; };
+		OBJ_359 /* CryptoFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* CryptoFactory.swift */; };
+		OBJ_360 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* Encoding.swift */; };
+		OBJ_361 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* Error.swift */; };
+		OBJ_362 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* PrivateKey.swift */; };
+		OBJ_363 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* PublicKey.swift */; };
+		OBJ_364 /* Secp256k1Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* Secp256k1Context.swift */; };
+		OBJ_365 /* Secp256k1PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* Secp256k1PrivateKey.swift */; };
+		OBJ_366 /* Secp256k1PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* Secp256k1PublicKey.swift */; };
+		OBJ_367 /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* Signer.swift */; };
+		OBJ_369 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::secp256k1::Product" /* secp256k1.framework */; };
+		OBJ_370 /* libsecp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */; };
+		OBJ_379 /* SawtoothSigningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* SawtoothSigningTests.swift */; };
+		OBJ_381 /* SawtoothSigning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */; };
+		OBJ_382 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::secp256k1::Product" /* secp256k1.framework */; };
+		OBJ_383 /* libsecp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */; };
+		OBJ_391 /* AnyMessageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* AnyMessageStorage.swift */; };
+		OBJ_392 /* AnyUnpackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* AnyUnpackError.swift */; };
+		OBJ_393 /* BinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* BinaryDecoder.swift */; };
+		OBJ_394 /* BinaryDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* BinaryDecodingError.swift */; };
+		OBJ_395 /* BinaryDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* BinaryDecodingOptions.swift */; };
+		OBJ_396 /* BinaryDelimited.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* BinaryDelimited.swift */; };
+		OBJ_397 /* BinaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* BinaryEncoder.swift */; };
+		OBJ_398 /* BinaryEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* BinaryEncodingError.swift */; };
+		OBJ_399 /* BinaryEncodingSizeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* BinaryEncodingSizeVisitor.swift */; };
+		OBJ_400 /* BinaryEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* BinaryEncodingVisitor.swift */; };
+		OBJ_401 /* CustomJSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* CustomJSONCodable.swift */; };
+		OBJ_402 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* Data+Extensions.swift */; };
+		OBJ_403 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* Decoder.swift */; };
+		OBJ_404 /* DoubleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* DoubleParser.swift */; };
+		OBJ_405 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* Enum.swift */; };
+		OBJ_406 /* ExtensibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* ExtensibleMessage.swift */; };
+		OBJ_407 /* ExtensionFieldValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* ExtensionFieldValueSet.swift */; };
+		OBJ_408 /* ExtensionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* ExtensionFields.swift */; };
+		OBJ_409 /* ExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* ExtensionMap.swift */; };
+		OBJ_410 /* FieldTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* FieldTag.swift */; };
+		OBJ_411 /* FieldTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* FieldTypes.swift */; };
+		OBJ_412 /* Google_Protobuf_Any+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* Google_Protobuf_Any+Extensions.swift */; };
+		OBJ_413 /* Google_Protobuf_Any+Registry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* Google_Protobuf_Any+Registry.swift */; };
+		OBJ_414 /* Google_Protobuf_Duration+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* Google_Protobuf_Duration+Extensions.swift */; };
+		OBJ_415 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* Google_Protobuf_FieldMask+Extensions.swift */; };
+		OBJ_416 /* Google_Protobuf_ListValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* Google_Protobuf_ListValue+Extensions.swift */; };
+		OBJ_417 /* Google_Protobuf_Struct+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* Google_Protobuf_Struct+Extensions.swift */; };
+		OBJ_418 /* Google_Protobuf_Timestamp+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* Google_Protobuf_Timestamp+Extensions.swift */; };
+		OBJ_419 /* Google_Protobuf_Value+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* Google_Protobuf_Value+Extensions.swift */; };
+		OBJ_420 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* Google_Protobuf_Wrappers+Extensions.swift */; };
+		OBJ_421 /* HashVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* HashVisitor.swift */; };
+		OBJ_422 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* Internal.swift */; };
+		OBJ_423 /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* JSONDecoder.swift */; };
+		OBJ_424 /* JSONDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* JSONDecodingError.swift */; };
+		OBJ_425 /* JSONDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* JSONDecodingOptions.swift */; };
+		OBJ_426 /* JSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* JSONEncoder.swift */; };
+		OBJ_427 /* JSONEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* JSONEncodingError.swift */; };
+		OBJ_428 /* JSONEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* JSONEncodingOptions.swift */; };
+		OBJ_429 /* JSONEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* JSONEncodingVisitor.swift */; };
+		OBJ_430 /* JSONMapEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* JSONMapEncodingVisitor.swift */; };
+		OBJ_431 /* JSONScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* JSONScanner.swift */; };
+		OBJ_432 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* MathUtils.swift */; };
+		OBJ_433 /* Message+AnyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* Message+AnyAdditions.swift */; };
+		OBJ_434 /* Message+BinaryAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* Message+BinaryAdditions.swift */; };
+		OBJ_435 /* Message+JSONAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* Message+JSONAdditions.swift */; };
+		OBJ_436 /* Message+JSONArrayAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* Message+JSONArrayAdditions.swift */; };
+		OBJ_437 /* Message+TextFormatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* Message+TextFormatAdditions.swift */; };
+		OBJ_438 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* Message.swift */; };
+		OBJ_439 /* MessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* MessageExtension.swift */; };
+		OBJ_440 /* NameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* NameMap.swift */; };
+		OBJ_441 /* ProtoNameProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* ProtoNameProviding.swift */; };
+		OBJ_442 /* ProtobufAPIVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* ProtobufAPIVersionCheck.swift */; };
+		OBJ_443 /* ProtobufMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* ProtobufMap.swift */; };
+		OBJ_444 /* SelectiveVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* SelectiveVisitor.swift */; };
+		OBJ_445 /* SimpleExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* SimpleExtensionMap.swift */; };
+		OBJ_446 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* StringUtils.swift */; };
+		OBJ_447 /* TextFormatDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* TextFormatDecoder.swift */; };
+		OBJ_448 /* TextFormatDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* TextFormatDecodingError.swift */; };
+		OBJ_449 /* TextFormatEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* TextFormatEncoder.swift */; };
+		OBJ_450 /* TextFormatEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* TextFormatEncodingOptions.swift */; };
+		OBJ_451 /* TextFormatEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* TextFormatEncodingVisitor.swift */; };
+		OBJ_452 /* TextFormatScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* TextFormatScanner.swift */; };
+		OBJ_453 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* TimeUtils.swift */; };
+		OBJ_454 /* UnknownStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* UnknownStorage.swift */; };
+		OBJ_455 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* Varint.swift */; };
+		OBJ_456 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* Version.swift */; };
+		OBJ_457 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* Visitor.swift */; };
+		OBJ_458 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* WireFormat.swift */; };
+		OBJ_459 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* ZigZag.swift */; };
+		OBJ_460 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* any.pb.swift */; };
+		OBJ_461 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_205 /* api.pb.swift */; };
+		OBJ_462 /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* duration.pb.swift */; };
+		OBJ_463 /* empty.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* empty.pb.swift */; };
+		OBJ_464 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* field_mask.pb.swift */; };
+		OBJ_465 /* source_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* source_context.pb.swift */; };
+		OBJ_466 /* struct.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* struct.pb.swift */; };
+		OBJ_467 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* timestamp.pb.swift */; };
+		OBJ_468 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* type.pb.swift */; };
+		OBJ_469 /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* wrappers.pb.swift */; };
+		OBJ_476 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_216 /* Package.swift */; };
+		OBJ_481 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* Context.swift */; };
+		OBJ_482 /* Poller.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* Poller.swift */; };
+		OBJ_483 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* Socket.swift */; };
+		OBJ_484 /* ZeroMQSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* ZeroMQSwift.swift */; };
+		OBJ_491 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Package.swift */; };
+		OBJ_496 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* lax_der_parsing.c */; };
+		OBJ_497 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* lax_der_privatekey_parsing.c */; };
+		OBJ_498 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* secp256k1.c */; };
+		OBJ_504 /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* Exporter.swift */; };
+		OBJ_506 /* libsecp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */; };
+		OBJ_513 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8192E08F2305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::secp256k1";
+			remoteInfo = secp256k1;
+		};
+		8192E0902305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::libsecp256k1";
+			remoteInfo = libsecp256k1;
+		};
+		8192E0912305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::libsecp256k1";
+			remoteInfo = libsecp256k1;
+		};
+		8192E0922305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ZeroMQSwift::ZeroMQSwift";
+			remoteInfo = ZeroMQSwift;
+		};
+		8192E0932305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "MPSCSwift::MPSCSwift";
+			remoteInfo = MPSCSwift;
+		};
+		8192E0942305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SawtoothSDKSwift::SawtoothProtoSwift";
+			remoteInfo = SawtoothProtoSwift;
+		};
+		8192E0952305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftProtobuf::SwiftProtobuf";
+			remoteInfo = SwiftProtobuf;
+		};
+		8192E0962305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftProtobuf::SwiftProtobuf";
+			remoteInfo = SwiftProtobuf;
+		};
+		8192E0972305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SawtoothSDKSwift::SawtoothSigning";
+			remoteInfo = SawtoothSigning;
+		};
+		8192E0982305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::secp256k1";
+			remoteInfo = secp256k1;
+		};
+		8192E0992305684D006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::libsecp256k1";
+			remoteInfo = libsecp256k1;
+		};
+		8192E09A2305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SawtoothSDKSwift::SawtoothSDKSwift";
+			remoteInfo = SawtoothSDKSwift;
+		};
+		8192E09B2305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ZeroMQSwift::ZeroMQSwift";
+			remoteInfo = ZeroMQSwift;
+		};
+		8192E09C2305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "MPSCSwift::MPSCSwift";
+			remoteInfo = MPSCSwift;
+		};
+		8192E09D2305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SawtoothSDKSwift::SawtoothProtoSwift";
+			remoteInfo = SawtoothProtoSwift;
+		};
+		8192E09E2305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftProtobuf::SwiftProtobuf";
+			remoteInfo = SwiftProtobuf;
+		};
+		8192E09F2305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SawtoothSDKSwift::SawtoothSigningTests";
+			remoteInfo = SawtoothSigningTests;
+		};
+		8192E0A02305684E006617BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SawtoothSDKSwift::SawtoothSDKSwiftTests";
+			remoteInfo = SawtoothSDKSwiftTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8192E4F323056C57006617BA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		"MPSCSwift::MPSCSwift::Product" /* MPSCSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MPSCSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* block_info.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = block_info.proto; sourceTree = "<group>"; };
+		OBJ_100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_101 /* SawtoothSigningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SawtoothSigningTests.swift; sourceTree = "<group>"; };
+		OBJ_105 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_106 /* Poller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poller.swift; sourceTree = "<group>"; };
+		OBJ_107 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_108 /* ZeroMQSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroMQSwift.swift; sourceTree = "<group>"; };
+		OBJ_11 /* client_transaction.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_transaction.proto; sourceTree = "<group>"; };
+		OBJ_110 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/ZeroMQSwift/Package.swift"; sourceTree = "<group>"; };
+		OBJ_113 /* MPSCSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPSCSwift.swift; sourceTree = "<group>"; };
+		OBJ_114 /* queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queue.swift; sourceTree = "<group>"; };
+		OBJ_115 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/MPSCSwift/Package.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* transaction_receipt.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = transaction_receipt.proto; sourceTree = "<group>"; };
+		OBJ_120 /* lax_der_parsing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lax_der_parsing.c; sourceTree = "<group>"; };
+		OBJ_121 /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		OBJ_123 /* secp256k1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		OBJ_125 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
+		OBJ_126 /* secp256k1_recovery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
+		OBJ_127 /* secp256k1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		OBJ_128 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_13 /* transaction.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = transaction.proto; sourceTree = "<group>"; };
+		OBJ_130 /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
+		OBJ_131 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/secp256k1.swift/Package.swift"; sourceTree = "<group>"; };
+		OBJ_135 /* AnyMessageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyMessageStorage.swift; sourceTree = "<group>"; };
+		OBJ_136 /* AnyUnpackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUnpackError.swift; sourceTree = "<group>"; };
+		OBJ_137 /* BinaryDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecoder.swift; sourceTree = "<group>"; };
+		OBJ_138 /* BinaryDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecodingError.swift; sourceTree = "<group>"; };
+		OBJ_139 /* BinaryDecodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_14 /* client_event.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_event.proto; sourceTree = "<group>"; };
+		OBJ_140 /* BinaryDelimited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDelimited.swift; sourceTree = "<group>"; };
+		OBJ_141 /* BinaryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncoder.swift; sourceTree = "<group>"; };
+		OBJ_142 /* BinaryEncodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncodingError.swift; sourceTree = "<group>"; };
+		OBJ_143 /* BinaryEncodingSizeVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncodingSizeVisitor.swift; sourceTree = "<group>"; };
+		OBJ_144 /* BinaryEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_145 /* CustomJSONCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomJSONCodable.swift; sourceTree = "<group>"; };
+		OBJ_146 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_147 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		OBJ_148 /* DoubleParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleParser.swift; sourceTree = "<group>"; };
+		OBJ_149 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		OBJ_15 /* consensus.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = consensus.proto; sourceTree = "<group>"; };
+		OBJ_150 /* ExtensibleMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensibleMessage.swift; sourceTree = "<group>"; };
+		OBJ_151 /* ExtensionFieldValueSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFieldValueSet.swift; sourceTree = "<group>"; };
+		OBJ_152 /* ExtensionFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFields.swift; sourceTree = "<group>"; };
+		OBJ_153 /* ExtensionMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMap.swift; sourceTree = "<group>"; };
+		OBJ_154 /* FieldTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTag.swift; sourceTree = "<group>"; };
+		OBJ_155 /* FieldTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTypes.swift; sourceTree = "<group>"; };
+		OBJ_156 /* Google_Protobuf_Any+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Any+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_157 /* Google_Protobuf_Any+Registry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Any+Registry.swift"; sourceTree = "<group>"; };
+		OBJ_158 /* Google_Protobuf_Duration+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Duration+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_159 /* Google_Protobuf_FieldMask+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_FieldMask+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_16 /* state_context.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = state_context.proto; sourceTree = "<group>"; };
+		OBJ_160 /* Google_Protobuf_ListValue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_ListValue+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_161 /* Google_Protobuf_Struct+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Struct+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_162 /* Google_Protobuf_Timestamp+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Timestamp+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_163 /* Google_Protobuf_Value+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Value+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_164 /* Google_Protobuf_Wrappers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Wrappers+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_165 /* HashVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashVisitor.swift; sourceTree = "<group>"; };
+		OBJ_166 /* Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
+		OBJ_167 /* JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		OBJ_168 /* JSONDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingError.swift; sourceTree = "<group>"; };
+		OBJ_169 /* JSONDecodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_17 /* client_block.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_block.proto; sourceTree = "<group>"; };
+		OBJ_170 /* JSONEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoder.swift; sourceTree = "<group>"; };
+		OBJ_171 /* JSONEncodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodingError.swift; sourceTree = "<group>"; };
+		OBJ_172 /* JSONEncodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_173 /* JSONEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_174 /* JSONMapEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_175 /* JSONScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONScanner.swift; sourceTree = "<group>"; };
+		OBJ_176 /* MathUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
+		OBJ_177 /* Message+AnyAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+AnyAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_178 /* Message+BinaryAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+BinaryAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_179 /* Message+JSONAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+JSONAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_18 /* client_peers.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_peers.proto; sourceTree = "<group>"; };
+		OBJ_180 /* Message+JSONArrayAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+JSONArrayAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_181 /* Message+TextFormatAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+TextFormatAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_182 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		OBJ_183 /* MessageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExtension.swift; sourceTree = "<group>"; };
+		OBJ_184 /* NameMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameMap.swift; sourceTree = "<group>"; };
+		OBJ_185 /* ProtoNameProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoNameProviding.swift; sourceTree = "<group>"; };
+		OBJ_186 /* ProtobufAPIVersionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufAPIVersionCheck.swift; sourceTree = "<group>"; };
+		OBJ_187 /* ProtobufMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufMap.swift; sourceTree = "<group>"; };
+		OBJ_188 /* SelectiveVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectiveVisitor.swift; sourceTree = "<group>"; };
+		OBJ_189 /* SimpleExtensionMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExtensionMap.swift; sourceTree = "<group>"; };
+		OBJ_19 /* client_state.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_state.proto; sourceTree = "<group>"; };
+		OBJ_190 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		OBJ_191 /* TextFormatDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatDecoder.swift; sourceTree = "<group>"; };
+		OBJ_192 /* TextFormatDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatDecodingError.swift; sourceTree = "<group>"; };
+		OBJ_193 /* TextFormatEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatEncoder.swift; sourceTree = "<group>"; };
+		OBJ_194 /* TextFormatEncodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatEncodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_195 /* TextFormatEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_196 /* TextFormatScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatScanner.swift; sourceTree = "<group>"; };
+		OBJ_197 /* TimeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
+		OBJ_198 /* UnknownStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownStorage.swift; sourceTree = "<group>"; };
+		OBJ_199 /* Varint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Varint.swift; sourceTree = "<group>"; };
+		OBJ_20 /* batch.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = batch.proto; sourceTree = "<group>"; };
+		OBJ_200 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		OBJ_201 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		OBJ_202 /* WireFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireFormat.swift; sourceTree = "<group>"; };
+		OBJ_203 /* ZigZag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZag.swift; sourceTree = "<group>"; };
+		OBJ_204 /* any.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = any.pb.swift; sourceTree = "<group>"; };
+		OBJ_205 /* api.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.pb.swift; sourceTree = "<group>"; };
+		OBJ_206 /* duration.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duration.pb.swift; sourceTree = "<group>"; };
+		OBJ_207 /* empty.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.pb.swift; sourceTree = "<group>"; };
+		OBJ_208 /* field_mask.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field_mask.pb.swift; sourceTree = "<group>"; };
+		OBJ_209 /* source_context.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source_context.pb.swift; sourceTree = "<group>"; };
+		OBJ_21 /* authorization.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = authorization.proto; sourceTree = "<group>"; };
+		OBJ_210 /* struct.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.pb.swift; sourceTree = "<group>"; };
+		OBJ_211 /* timestamp.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timestamp.pb.swift; sourceTree = "<group>"; };
+		OBJ_212 /* type.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.pb.swift; sourceTree = "<group>"; };
+		OBJ_213 /* wrappers.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrappers.pb.swift; sourceTree = "<group>"; };
+		OBJ_216 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/swift-protobuf/Package.swift"; sourceTree = "<group>"; };
+		OBJ_22 /* identity.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = identity.proto; sourceTree = "<group>"; };
+		OBJ_228 /* protos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = protos; sourceTree = SOURCE_ROOT; };
+		OBJ_229 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = SOURCE_ROOT; };
+		OBJ_23 /* setting.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = setting.proto; sourceTree = "<group>"; };
+		OBJ_230 /* ci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci; sourceTree = SOURCE_ROOT; };
+		OBJ_231 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
+		OBJ_232 /* Support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Support; sourceTree = SOURCE_ROOT; };
+		OBJ_233 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = SOURCE_ROOT; };
+		OBJ_234 /* sawtooth-sdk-swift.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "sawtooth-sdk-swift.xcworkspace"; sourceTree = SOURCE_ROOT; };
+		OBJ_236 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_237 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		OBJ_238 /* CODEOWNERS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
+		OBJ_239 /* MAINTAINERS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MAINTAINERS.md; sourceTree = "<group>"; };
+		OBJ_24 /* client_status.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_status.proto; sourceTree = "<group>"; };
+		OBJ_240 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_241 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		OBJ_25 /* validator.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = validator.proto; sourceTree = "<group>"; };
+		OBJ_26 /* genesis.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = genesis.proto; sourceTree = "<group>"; };
+		OBJ_27 /* block.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = block.proto; sourceTree = "<group>"; };
+		OBJ_28 /* merkle.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = merkle.proto; sourceTree = "<group>"; };
+		OBJ_29 /* processor.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = processor.proto; sourceTree = "<group>"; };
+		OBJ_30 /* client_list_control.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_list_control.proto; sourceTree = "<group>"; };
+		OBJ_31 /* client_batch.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_batch.proto; sourceTree = "<group>"; };
+		OBJ_32 /* client_batch_submit.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_batch_submit.proto; sourceTree = "<group>"; };
+		OBJ_33 /* client_receipt.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_receipt.proto; sourceTree = "<group>"; };
+		OBJ_34 /* network.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = network.proto; sourceTree = "<group>"; };
+		OBJ_35 /* authorization.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authorization.pb.swift; sourceTree = "<group>"; };
+		OBJ_36 /* batch.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batch.pb.swift; sourceTree = "<group>"; };
+		OBJ_37 /* block.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = block.pb.swift; sourceTree = "<group>"; };
+		OBJ_38 /* block_info.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = block_info.pb.swift; sourceTree = "<group>"; };
+		OBJ_39 /* client_batch.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_batch.pb.swift; sourceTree = "<group>"; };
+		OBJ_40 /* client_batch_submit.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_batch_submit.pb.swift; sourceTree = "<group>"; };
+		OBJ_41 /* client_block.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_block.pb.swift; sourceTree = "<group>"; };
+		OBJ_42 /* client_event.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_event.pb.swift; sourceTree = "<group>"; };
+		OBJ_43 /* client_list_control.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_list_control.pb.swift; sourceTree = "<group>"; };
+		OBJ_44 /* client_peers.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_peers.pb.swift; sourceTree = "<group>"; };
+		OBJ_45 /* client_receipt.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_receipt.pb.swift; sourceTree = "<group>"; };
+		OBJ_46 /* client_state.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_state.pb.swift; sourceTree = "<group>"; };
+		OBJ_47 /* client_status.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_status.pb.swift; sourceTree = "<group>"; };
+		OBJ_48 /* client_transaction.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_transaction.pb.swift; sourceTree = "<group>"; };
+		OBJ_49 /* consensus.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consensus.pb.swift; sourceTree = "<group>"; };
+		OBJ_50 /* events.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events.pb.swift; sourceTree = "<group>"; };
+		OBJ_51 /* genesis.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genesis.pb.swift; sourceTree = "<group>"; };
+		OBJ_52 /* identity.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identity.pb.swift; sourceTree = "<group>"; };
+		OBJ_53 /* merkle.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merkle.pb.swift; sourceTree = "<group>"; };
+		OBJ_54 /* network.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.pb.swift; sourceTree = "<group>"; };
+		OBJ_55 /* processor.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processor.pb.swift; sourceTree = "<group>"; };
+		OBJ_56 /* setting.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.pb.swift; sourceTree = "<group>"; };
+		OBJ_57 /* state_context.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state_context.pb.swift; sourceTree = "<group>"; };
+		OBJ_58 /* transaction.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transaction.pb.swift; sourceTree = "<group>"; };
+		OBJ_59 /* transaction_receipt.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transaction_receipt.pb.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* validator.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validator.pb.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		OBJ_65 /* ZMQDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMQDriver.swift; sourceTree = "<group>"; };
+		OBJ_66 /* ZMQService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMQService.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		OBJ_69 /* ZMQStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMQStream.swift; sourceTree = "<group>"; };
+		OBJ_71 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		OBJ_72 /* TransactionProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionProcessor.swift; sourceTree = "<group>"; };
+		OBJ_73 /* ZMQContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMQContext.swift; sourceTree = "<group>"; };
+		OBJ_75 /* SECP256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECP256k1.swift; sourceTree = "<group>"; };
+		OBJ_77 /* SawtoothSigning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SawtoothSigning.h; sourceTree = "<group>"; };
+		OBJ_78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_79 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_80 /* CryptoFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFactory.swift; sourceTree = "<group>"; };
+		OBJ_81 /* Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		OBJ_82 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_83 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_84 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		OBJ_85 /* Secp256k1Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1Context.swift; sourceTree = "<group>"; };
+		OBJ_86 /* Secp256k1PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1PrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_87 /* Secp256k1PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1PublicKey.swift; sourceTree = "<group>"; };
+		OBJ_88 /* Signer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signer.swift; sourceTree = "<group>"; };
+		OBJ_9 /* events.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = events.proto; sourceTree = "<group>"; };
+		OBJ_91 /* EngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineTests.swift; sourceTree = "<group>"; };
+		OBJ_92 /* SawtoothSDKSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SawtoothSDKSwiftTests.swift; sourceTree = "<group>"; };
+		OBJ_93 /* ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTests.swift; sourceTree = "<group>"; };
+		OBJ_94 /* StreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamTests.swift; sourceTree = "<group>"; };
+		OBJ_95 /* TransactionProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionProcessorTests.swift; sourceTree = "<group>"; };
+		OBJ_96 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_97 /* ZMQDriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMQDriverTests.swift; sourceTree = "<group>"; };
+		OBJ_98 /* ZMQServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMQServiceTests.swift; sourceTree = "<group>"; };
+		"SawtoothSDKSwift::SawtoothProtoSwift::Product" /* SawtoothProtoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SawtoothProtoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SawtoothSDKSwift::SawtoothSDKSwift::Product" /* SawtoothSDKSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SawtoothSDKSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SawtoothSDKSwift::SawtoothSDKSwiftTests::Product" /* SawtoothSDKSwiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SawtoothSDKSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SawtoothSigning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SawtoothSDKSwift::SawtoothSigningTests::Product" /* SawtoothSigningTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SawtoothSigningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ZeroMQSwift::ZeroMQSwift::Product" /* ZeroMQSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZeroMQSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsecp256k1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"secp256k1::secp256k1::Product" /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = secp256k1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_288 /* SwiftProtobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_307 /* ZeroMQSwift.framework in Frameworks */,
+				OBJ_308 /* MPSCSwift.framework in Frameworks */,
+				OBJ_309 /* SawtoothProtoSwift.framework in Frameworks */,
+				OBJ_310 /* SwiftProtobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_343 /* SawtoothSDKSwift.framework in Frameworks */,
+				OBJ_344 /* ZeroMQSwift.framework in Frameworks */,
+				OBJ_345 /* MPSCSwift.framework in Frameworks */,
+				OBJ_346 /* SawtoothProtoSwift.framework in Frameworks */,
+				OBJ_347 /* SwiftProtobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_369 /* secp256k1.framework in Frameworks */,
+				OBJ_370 /* libsecp256k1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_381 /* SawtoothSigning.framework in Frameworks */,
+				OBJ_382 /* secp256k1.framework in Frameworks */,
+				OBJ_383 /* libsecp256k1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_506 /* libsecp256k1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_102 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_103 /* ZeroMQSwift 0.0.1 */,
+				OBJ_111 /* MPSCSwift 0.0.1 */,
+				OBJ_116 /* secp256k1 0.1.4 */,
+				OBJ_132 /* SwiftProtobuf 1.6.0 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_103 /* ZeroMQSwift 0.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_104 /* ZeroMQSwift */,
+				OBJ_109 /* zmq */,
+				OBJ_110 /* Package.swift */,
+			);
+			name = "ZeroMQSwift 0.0.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_104 /* ZeroMQSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_105 /* Context.swift */,
+				OBJ_106 /* Poller.swift */,
+				OBJ_107 /* Socket.swift */,
+				OBJ_108 /* ZeroMQSwift.swift */,
+			);
+			name = ZeroMQSwift;
+			path = .build/checkouts/ZeroMQSwift/Sources/ZeroMQSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_109 /* zmq */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = zmq;
+			path = .build/checkouts/ZeroMQSwift/Sources/zmq;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_111 /* MPSCSwift 0.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_112 /* MPSCSwift */,
+				OBJ_115 /* Package.swift */,
+			);
+			name = "MPSCSwift 0.0.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_112 /* MPSCSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_113 /* MPSCSwift.swift */,
+				OBJ_114 /* queue.swift */,
+			);
+			name = MPSCSwift;
+			path = .build/checkouts/MPSCSwift/Sources/MPSCSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_116 /* secp256k1 0.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_117 /* libsecp256k1 */,
+				OBJ_129 /* secp256k1 */,
+				OBJ_131 /* Package.swift */,
+			);
+			name = "secp256k1 0.1.4";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_117 /* libsecp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_118 /* secp256k1 */,
+			);
+			name = libsecp256k1;
+			path = .build/checkouts/secp256k1.swift/secp256k1/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_118 /* secp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_119 /* contrib */,
+				OBJ_122 /* src */,
+				OBJ_124 /* include */,
+			);
+			path = secp256k1;
+			sourceTree = "<group>";
+		};
+		OBJ_119 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_120 /* lax_der_parsing.c */,
+				OBJ_121 /* lax_der_privatekey_parsing.c */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		OBJ_122 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_123 /* secp256k1.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		OBJ_124 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_125 /* secp256k1_ecdh.h */,
+				OBJ_126 /* secp256k1_recovery.h */,
+				OBJ_127 /* secp256k1.h */,
+				OBJ_128 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_129 /* secp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_130 /* Exporter.swift */,
+			);
+			name = secp256k1;
+			path = .build/checkouts/secp256k1.swift/secp256k1/Classes/exporter;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_132 /* SwiftProtobuf 1.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_133 /* Conformance */,
+				OBJ_134 /* SwiftProtobuf */,
+				OBJ_214 /* SwiftProtobufPluginLibrary */,
+				OBJ_215 /* protoc-gen-swift */,
+				OBJ_216 /* Package.swift */,
+			);
+			name = "SwiftProtobuf 1.6.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_133 /* Conformance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Conformance;
+			path = ".build/checkouts/swift-protobuf/Sources/Conformance";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_134 /* SwiftProtobuf */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_135 /* AnyMessageStorage.swift */,
+				OBJ_136 /* AnyUnpackError.swift */,
+				OBJ_137 /* BinaryDecoder.swift */,
+				OBJ_138 /* BinaryDecodingError.swift */,
+				OBJ_139 /* BinaryDecodingOptions.swift */,
+				OBJ_140 /* BinaryDelimited.swift */,
+				OBJ_141 /* BinaryEncoder.swift */,
+				OBJ_142 /* BinaryEncodingError.swift */,
+				OBJ_143 /* BinaryEncodingSizeVisitor.swift */,
+				OBJ_144 /* BinaryEncodingVisitor.swift */,
+				OBJ_145 /* CustomJSONCodable.swift */,
+				OBJ_146 /* Data+Extensions.swift */,
+				OBJ_147 /* Decoder.swift */,
+				OBJ_148 /* DoubleParser.swift */,
+				OBJ_149 /* Enum.swift */,
+				OBJ_150 /* ExtensibleMessage.swift */,
+				OBJ_151 /* ExtensionFieldValueSet.swift */,
+				OBJ_152 /* ExtensionFields.swift */,
+				OBJ_153 /* ExtensionMap.swift */,
+				OBJ_154 /* FieldTag.swift */,
+				OBJ_155 /* FieldTypes.swift */,
+				OBJ_156 /* Google_Protobuf_Any+Extensions.swift */,
+				OBJ_157 /* Google_Protobuf_Any+Registry.swift */,
+				OBJ_158 /* Google_Protobuf_Duration+Extensions.swift */,
+				OBJ_159 /* Google_Protobuf_FieldMask+Extensions.swift */,
+				OBJ_160 /* Google_Protobuf_ListValue+Extensions.swift */,
+				OBJ_161 /* Google_Protobuf_Struct+Extensions.swift */,
+				OBJ_162 /* Google_Protobuf_Timestamp+Extensions.swift */,
+				OBJ_163 /* Google_Protobuf_Value+Extensions.swift */,
+				OBJ_164 /* Google_Protobuf_Wrappers+Extensions.swift */,
+				OBJ_165 /* HashVisitor.swift */,
+				OBJ_166 /* Internal.swift */,
+				OBJ_167 /* JSONDecoder.swift */,
+				OBJ_168 /* JSONDecodingError.swift */,
+				OBJ_169 /* JSONDecodingOptions.swift */,
+				OBJ_170 /* JSONEncoder.swift */,
+				OBJ_171 /* JSONEncodingError.swift */,
+				OBJ_172 /* JSONEncodingOptions.swift */,
+				OBJ_173 /* JSONEncodingVisitor.swift */,
+				OBJ_174 /* JSONMapEncodingVisitor.swift */,
+				OBJ_175 /* JSONScanner.swift */,
+				OBJ_176 /* MathUtils.swift */,
+				OBJ_177 /* Message+AnyAdditions.swift */,
+				OBJ_178 /* Message+BinaryAdditions.swift */,
+				OBJ_179 /* Message+JSONAdditions.swift */,
+				OBJ_180 /* Message+JSONArrayAdditions.swift */,
+				OBJ_181 /* Message+TextFormatAdditions.swift */,
+				OBJ_182 /* Message.swift */,
+				OBJ_183 /* MessageExtension.swift */,
+				OBJ_184 /* NameMap.swift */,
+				OBJ_185 /* ProtoNameProviding.swift */,
+				OBJ_186 /* ProtobufAPIVersionCheck.swift */,
+				OBJ_187 /* ProtobufMap.swift */,
+				OBJ_188 /* SelectiveVisitor.swift */,
+				OBJ_189 /* SimpleExtensionMap.swift */,
+				OBJ_190 /* StringUtils.swift */,
+				OBJ_191 /* TextFormatDecoder.swift */,
+				OBJ_192 /* TextFormatDecodingError.swift */,
+				OBJ_193 /* TextFormatEncoder.swift */,
+				OBJ_194 /* TextFormatEncodingOptions.swift */,
+				OBJ_195 /* TextFormatEncodingVisitor.swift */,
+				OBJ_196 /* TextFormatScanner.swift */,
+				OBJ_197 /* TimeUtils.swift */,
+				OBJ_198 /* UnknownStorage.swift */,
+				OBJ_199 /* Varint.swift */,
+				OBJ_200 /* Version.swift */,
+				OBJ_201 /* Visitor.swift */,
+				OBJ_202 /* WireFormat.swift */,
+				OBJ_203 /* ZigZag.swift */,
+				OBJ_204 /* any.pb.swift */,
+				OBJ_205 /* api.pb.swift */,
+				OBJ_206 /* duration.pb.swift */,
+				OBJ_207 /* empty.pb.swift */,
+				OBJ_208 /* field_mask.pb.swift */,
+				OBJ_209 /* source_context.pb.swift */,
+				OBJ_210 /* struct.pb.swift */,
+				OBJ_211 /* timestamp.pb.swift */,
+				OBJ_212 /* type.pb.swift */,
+				OBJ_213 /* wrappers.pb.swift */,
+			);
+			name = SwiftProtobuf;
+			path = ".build/checkouts/swift-protobuf/Sources/SwiftProtobuf";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_214 /* SwiftProtobufPluginLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftProtobufPluginLibrary;
+			path = ".build/checkouts/swift-protobuf/Sources/SwiftProtobufPluginLibrary";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_215 /* protoc-gen-swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "protoc-gen-swift";
+			path = ".build/checkouts/swift-protobuf/Sources/protoc-gen-swift";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */,
+				"SawtoothSDKSwift::SawtoothSDKSwiftTests::Product" /* SawtoothSDKSwiftTests.xctest */,
+				"SawtoothSDKSwift::SawtoothSigningTests::Product" /* SawtoothSigningTests.xctest */,
+				"ZeroMQSwift::ZeroMQSwift::Product" /* ZeroMQSwift.framework */,
+				"MPSCSwift::MPSCSwift::Product" /* MPSCSwift.framework */,
+				"SawtoothSDKSwift::SawtoothSDKSwift::Product" /* SawtoothSDKSwift.framework */,
+				"SawtoothSDKSwift::SawtoothProtoSwift::Product" /* SawtoothProtoSwift.framework */,
+				"SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */,
+				"SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */,
+				"secp256k1::secp256k1::Product" /* secp256k1.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				8192E4F323056C57006617BA /* .gitignore */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_89 /* Tests */,
+				OBJ_102 /* Dependencies */,
+				OBJ_217 /* Products */,
+				OBJ_228 /* protos */,
+				OBJ_229 /* bin */,
+				OBJ_230 /* ci */,
+				OBJ_231 /* docs */,
+				OBJ_232 /* Support */,
+				OBJ_233 /* examples */,
+				OBJ_234 /* sawtooth-sdk-swift.xcworkspace */,
+				OBJ_236 /* LICENSE */,
+				OBJ_237 /* Cartfile */,
+				OBJ_238 /* CODEOWNERS */,
+				OBJ_239 /* MAINTAINERS.md */,
+				OBJ_240 /* README.md */,
+				OBJ_241 /* Jenkinsfile */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_61 /* SawtoothSDKSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_62 /* Consensus */,
+				OBJ_67 /* Messaging */,
+				OBJ_70 /* Processor */,
+				OBJ_74 /* Signing */,
+			);
+			name = SawtoothSDKSwift;
+			path = Sources/SawtoothSDKSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_62 /* Consensus */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_63 /* Engine.swift */,
+				OBJ_64 /* Service.swift */,
+				OBJ_65 /* ZMQDriver.swift */,
+				OBJ_66 /* ZMQService.swift */,
+			);
+			path = Consensus;
+			sourceTree = "<group>";
+		};
+		OBJ_67 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_68 /* Stream.swift */,
+				OBJ_69 /* ZMQStream.swift */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SawtoothProtoSwift */,
+				OBJ_61 /* SawtoothSDKSwift */,
+				OBJ_76 /* SawtoothSigning */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_70 /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_71 /* Handler.swift */,
+				OBJ_72 /* TransactionProcessor.swift */,
+				OBJ_73 /* ZMQContext.swift */,
+			);
+			path = Processor;
+			sourceTree = "<group>";
+		};
+		OBJ_74 /* Signing */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_75 /* SECP256k1.swift */,
+			);
+			path = Signing;
+			sourceTree = "<group>";
+		};
+		OBJ_76 /* SawtoothSigning */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_77 /* SawtoothSigning.h */,
+				OBJ_78 /* Info.plist */,
+				OBJ_79 /* Context.swift */,
+				OBJ_80 /* CryptoFactory.swift */,
+				OBJ_81 /* Encoding.swift */,
+				OBJ_82 /* Error.swift */,
+				OBJ_83 /* PrivateKey.swift */,
+				OBJ_84 /* PublicKey.swift */,
+				OBJ_85 /* Secp256k1Context.swift */,
+				OBJ_86 /* Secp256k1PrivateKey.swift */,
+				OBJ_87 /* Secp256k1PublicKey.swift */,
+				OBJ_88 /* Signer.swift */,
+			);
+			name = SawtoothSigning;
+			path = Sources/SawtoothSigning;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SawtoothProtoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* events.proto */,
+				OBJ_10 /* block_info.proto */,
+				OBJ_11 /* client_transaction.proto */,
+				OBJ_12 /* transaction_receipt.proto */,
+				OBJ_13 /* transaction.proto */,
+				OBJ_14 /* client_event.proto */,
+				OBJ_15 /* consensus.proto */,
+				OBJ_16 /* state_context.proto */,
+				OBJ_17 /* client_block.proto */,
+				OBJ_18 /* client_peers.proto */,
+				OBJ_19 /* client_state.proto */,
+				OBJ_20 /* batch.proto */,
+				OBJ_21 /* authorization.proto */,
+				OBJ_22 /* identity.proto */,
+				OBJ_23 /* setting.proto */,
+				OBJ_24 /* client_status.proto */,
+				OBJ_25 /* validator.proto */,
+				OBJ_26 /* genesis.proto */,
+				OBJ_27 /* block.proto */,
+				OBJ_28 /* merkle.proto */,
+				OBJ_29 /* processor.proto */,
+				OBJ_30 /* client_list_control.proto */,
+				OBJ_31 /* client_batch.proto */,
+				OBJ_32 /* client_batch_submit.proto */,
+				OBJ_33 /* client_receipt.proto */,
+				OBJ_34 /* network.proto */,
+				OBJ_35 /* authorization.pb.swift */,
+				OBJ_36 /* batch.pb.swift */,
+				OBJ_37 /* block.pb.swift */,
+				OBJ_38 /* block_info.pb.swift */,
+				OBJ_39 /* client_batch.pb.swift */,
+				OBJ_40 /* client_batch_submit.pb.swift */,
+				OBJ_41 /* client_block.pb.swift */,
+				OBJ_42 /* client_event.pb.swift */,
+				OBJ_43 /* client_list_control.pb.swift */,
+				OBJ_44 /* client_peers.pb.swift */,
+				OBJ_45 /* client_receipt.pb.swift */,
+				OBJ_46 /* client_state.pb.swift */,
+				OBJ_47 /* client_status.pb.swift */,
+				OBJ_48 /* client_transaction.pb.swift */,
+				OBJ_49 /* consensus.pb.swift */,
+				OBJ_50 /* events.pb.swift */,
+				OBJ_51 /* genesis.pb.swift */,
+				OBJ_52 /* identity.pb.swift */,
+				OBJ_53 /* merkle.pb.swift */,
+				OBJ_54 /* network.pb.swift */,
+				OBJ_55 /* processor.pb.swift */,
+				OBJ_56 /* setting.pb.swift */,
+				OBJ_57 /* state_context.pb.swift */,
+				OBJ_58 /* transaction.pb.swift */,
+				OBJ_59 /* transaction_receipt.pb.swift */,
+				OBJ_60 /* validator.pb.swift */,
+			);
+			name = SawtoothProtoSwift;
+			path = Sources/SawtoothProtoSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_89 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_90 /* SawtoothSDKSwiftTests */,
+				OBJ_99 /* SawtoothSigningTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_90 /* SawtoothSDKSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_91 /* EngineTests.swift */,
+				OBJ_92 /* SawtoothSDKSwiftTests.swift */,
+				OBJ_93 /* ServiceTests.swift */,
+				OBJ_94 /* StreamTests.swift */,
+				OBJ_95 /* TransactionProcessorTests.swift */,
+				OBJ_96 /* XCTestManifests.swift */,
+				OBJ_97 /* ZMQDriverTests.swift */,
+				OBJ_98 /* ZMQServiceTests.swift */,
+			);
+			name = SawtoothSDKSwiftTests;
+			path = Tests/SawtoothSDKSwiftTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_99 /* SawtoothSigningTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_100 /* Info.plist */,
+				OBJ_101 /* SawtoothSigningTests.swift */,
+			);
+			name = SawtoothSigningTests;
+			path = Tests/SawtoothSigningTests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"MPSCSwift::MPSCSwift" /* MPSCSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_243 /* Build configuration list for PBXNativeTarget "MPSCSwift" */;
+			buildPhases = (
+				OBJ_246 /* Sources */,
+				OBJ_249 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPSCSwift;
+			productName = MPSCSwift;
+			productReference = "MPSCSwift::MPSCSwift::Product" /* MPSCSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"MPSCSwift::SwiftPMPackageDescription" /* MPSCSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_251 /* Build configuration list for PBXNativeTarget "MPSCSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_254 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPSCSwiftPackageDescription;
+			productName = MPSCSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SawtoothSDKSwift::SawtoothProtoSwift" /* SawtoothProtoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_257 /* Build configuration list for PBXNativeTarget "SawtoothProtoSwift" */;
+			buildPhases = (
+				OBJ_260 /* Sources */,
+				OBJ_287 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_289 /* PBXTargetDependency */,
+			);
+			name = SawtoothProtoSwift;
+			productName = SawtoothProtoSwift;
+			productReference = "SawtoothSDKSwift::SawtoothProtoSwift::Product" /* SawtoothProtoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SawtoothSDKSwift::SawtoothSDKSwift" /* SawtoothSDKSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_292 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwift" */;
+			buildPhases = (
+				OBJ_295 /* Sources */,
+				OBJ_306 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_311 /* PBXTargetDependency */,
+				OBJ_313 /* PBXTargetDependency */,
+				OBJ_314 /* PBXTargetDependency */,
+				OBJ_315 /* PBXTargetDependency */,
+			);
+			name = SawtoothSDKSwift;
+			productName = SawtoothSDKSwift;
+			productReference = "SawtoothSDKSwift::SawtoothSDKSwift::Product" /* SawtoothSDKSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SawtoothSDKSwift::SawtoothSDKSwiftTests" /* SawtoothSDKSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_330 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwiftTests" */;
+			buildPhases = (
+				OBJ_333 /* Sources */,
+				OBJ_342 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_348 /* PBXTargetDependency */,
+				OBJ_349 /* PBXTargetDependency */,
+				OBJ_350 /* PBXTargetDependency */,
+				OBJ_351 /* PBXTargetDependency */,
+				OBJ_352 /* PBXTargetDependency */,
+			);
+			name = SawtoothSDKSwiftTests;
+			productName = SawtoothSDKSwiftTests;
+			productReference = "SawtoothSDKSwift::SawtoothSDKSwiftTests::Product" /* SawtoothSDKSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SawtoothSDKSwift::SawtoothSigning" /* SawtoothSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_354 /* Build configuration list for PBXNativeTarget "SawtoothSigning" */;
+			buildPhases = (
+				OBJ_357 /* Sources */,
+				OBJ_368 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_371 /* PBXTargetDependency */,
+				OBJ_373 /* PBXTargetDependency */,
+			);
+			name = SawtoothSigning;
+			productName = SawtoothSigning;
+			productReference = "SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SawtoothSDKSwift::SawtoothSigningTests" /* SawtoothSigningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_375 /* Build configuration list for PBXNativeTarget "SawtoothSigningTests" */;
+			buildPhases = (
+				OBJ_378 /* Sources */,
+				OBJ_380 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_384 /* PBXTargetDependency */,
+				OBJ_385 /* PBXTargetDependency */,
+				OBJ_386 /* PBXTargetDependency */,
+			);
+			name = SawtoothSigningTests;
+			productName = SawtoothSigningTests;
+			productReference = "SawtoothSDKSwift::SawtoothSigningTests::Product" /* SawtoothSigningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SawtoothSDKSwift::SwiftPMPackageDescription" /* SawtoothSDKSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_317 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_320 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SawtoothSDKSwiftPackageDescription;
+			productName = SawtoothSDKSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftProtobuf::SwiftPMPackageDescription" /* SwiftProtobufPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_472 /* Build configuration list for PBXNativeTarget "SwiftProtobufPackageDescription" */;
+			buildPhases = (
+				OBJ_475 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftProtobufPackageDescription;
+			productName = SwiftProtobufPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_387 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
+			buildPhases = (
+				OBJ_390 /* Sources */,
+				OBJ_470 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftProtobuf;
+			productName = SwiftProtobuf;
+			productReference = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ZeroMQSwift::SwiftPMPackageDescription" /* ZeroMQSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_487 /* Build configuration list for PBXNativeTarget "ZeroMQSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_490 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroMQSwiftPackageDescription;
+			productName = ZeroMQSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"ZeroMQSwift::ZeroMQSwift" /* ZeroMQSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_477 /* Build configuration list for PBXNativeTarget "ZeroMQSwift" */;
+			buildPhases = (
+				OBJ_480 /* Sources */,
+				OBJ_485 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroMQSwift;
+			productName = ZeroMQSwift;
+			productReference = "ZeroMQSwift::ZeroMQSwift::Product" /* ZeroMQSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"secp256k1::SwiftPMPackageDescription" /* secp256k1PackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_509 /* Build configuration list for PBXNativeTarget "secp256k1PackageDescription" */;
+			buildPhases = (
+				OBJ_512 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = secp256k1PackageDescription;
+			productName = secp256k1PackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"secp256k1::libsecp256k1" /* libsecp256k1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_492 /* Build configuration list for PBXNativeTarget "libsecp256k1" */;
+			buildPhases = (
+				OBJ_495 /* Sources */,
+				OBJ_499 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libsecp256k1;
+			productName = libsecp256k1;
+			productReference = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"secp256k1::secp256k1" /* secp256k1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_500 /* Build configuration list for PBXNativeTarget "secp256k1" */;
+			buildPhases = (
+				OBJ_503 /* Sources */,
+				OBJ_505 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_507 /* PBXTargetDependency */,
+			);
+			name = secp256k1;
+			productName = secp256k1;
+			productReference = "secp256k1::secp256k1::Product" /* secp256k1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SawtoothSDKSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"MPSCSwift::MPSCSwift" /* MPSCSwift */,
+				"MPSCSwift::SwiftPMPackageDescription" /* MPSCSwiftPackageDescription */,
+				"SawtoothSDKSwift::SawtoothProtoSwift" /* SawtoothProtoSwift */,
+				"SawtoothSDKSwift::SawtoothSDKSwift" /* SawtoothSDKSwift */,
+				"SawtoothSDKSwift::SwiftPMPackageDescription" /* SawtoothSDKSwiftPackageDescription */,
+				"SawtoothSDKSwift::SawtoothSDKSwiftPackageTests::ProductTarget" /* SawtoothSDKSwiftPackageTests */,
+				"SawtoothSDKSwift::SawtoothSDKSwiftTests" /* SawtoothSDKSwiftTests */,
+				"SawtoothSDKSwift::SawtoothSigning" /* SawtoothSigning */,
+				"SawtoothSDKSwift::SawtoothSigningTests" /* SawtoothSigningTests */,
+				"SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */,
+				"SwiftProtobuf::SwiftPMPackageDescription" /* SwiftProtobufPackageDescription */,
+				"ZeroMQSwift::ZeroMQSwift" /* ZeroMQSwift */,
+				"ZeroMQSwift::SwiftPMPackageDescription" /* ZeroMQSwiftPackageDescription */,
+				"secp256k1::libsecp256k1" /* libsecp256k1 */,
+				"secp256k1::secp256k1" /* secp256k1 */,
+				"secp256k1::SwiftPMPackageDescription" /* secp256k1PackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_247 /* MPSCSwift.swift in Sources */,
+				OBJ_248 /* queue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_255 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_261 /* authorization.pb.swift in Sources */,
+				OBJ_262 /* batch.pb.swift in Sources */,
+				OBJ_263 /* block.pb.swift in Sources */,
+				OBJ_264 /* block_info.pb.swift in Sources */,
+				OBJ_265 /* client_batch.pb.swift in Sources */,
+				OBJ_266 /* client_batch_submit.pb.swift in Sources */,
+				OBJ_267 /* client_block.pb.swift in Sources */,
+				OBJ_268 /* client_event.pb.swift in Sources */,
+				OBJ_269 /* client_list_control.pb.swift in Sources */,
+				OBJ_270 /* client_peers.pb.swift in Sources */,
+				OBJ_271 /* client_receipt.pb.swift in Sources */,
+				OBJ_272 /* client_state.pb.swift in Sources */,
+				OBJ_273 /* client_status.pb.swift in Sources */,
+				OBJ_274 /* client_transaction.pb.swift in Sources */,
+				OBJ_275 /* consensus.pb.swift in Sources */,
+				OBJ_276 /* events.pb.swift in Sources */,
+				OBJ_277 /* genesis.pb.swift in Sources */,
+				OBJ_278 /* identity.pb.swift in Sources */,
+				OBJ_279 /* merkle.pb.swift in Sources */,
+				OBJ_280 /* network.pb.swift in Sources */,
+				OBJ_281 /* processor.pb.swift in Sources */,
+				OBJ_282 /* setting.pb.swift in Sources */,
+				OBJ_283 /* state_context.pb.swift in Sources */,
+				OBJ_284 /* transaction.pb.swift in Sources */,
+				OBJ_285 /* transaction_receipt.pb.swift in Sources */,
+				OBJ_286 /* validator.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_296 /* Engine.swift in Sources */,
+				OBJ_297 /* Service.swift in Sources */,
+				OBJ_298 /* ZMQDriver.swift in Sources */,
+				OBJ_299 /* ZMQService.swift in Sources */,
+				OBJ_300 /* Stream.swift in Sources */,
+				OBJ_301 /* ZMQStream.swift in Sources */,
+				OBJ_302 /* Handler.swift in Sources */,
+				OBJ_303 /* TransactionProcessor.swift in Sources */,
+				OBJ_304 /* ZMQContext.swift in Sources */,
+				OBJ_305 /* SECP256k1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_321 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_334 /* EngineTests.swift in Sources */,
+				OBJ_335 /* SawtoothSDKSwiftTests.swift in Sources */,
+				OBJ_336 /* ServiceTests.swift in Sources */,
+				OBJ_337 /* StreamTests.swift in Sources */,
+				OBJ_338 /* TransactionProcessorTests.swift in Sources */,
+				OBJ_339 /* XCTestManifests.swift in Sources */,
+				OBJ_340 /* ZMQDriverTests.swift in Sources */,
+				OBJ_341 /* ZMQServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_358 /* Context.swift in Sources */,
+				OBJ_359 /* CryptoFactory.swift in Sources */,
+				OBJ_360 /* Encoding.swift in Sources */,
+				OBJ_361 /* Error.swift in Sources */,
+				OBJ_362 /* PrivateKey.swift in Sources */,
+				OBJ_363 /* PublicKey.swift in Sources */,
+				OBJ_364 /* Secp256k1Context.swift in Sources */,
+				OBJ_365 /* Secp256k1PrivateKey.swift in Sources */,
+				OBJ_366 /* Secp256k1PublicKey.swift in Sources */,
+				OBJ_367 /* Signer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_379 /* SawtoothSigningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_391 /* AnyMessageStorage.swift in Sources */,
+				OBJ_392 /* AnyUnpackError.swift in Sources */,
+				OBJ_393 /* BinaryDecoder.swift in Sources */,
+				OBJ_394 /* BinaryDecodingError.swift in Sources */,
+				OBJ_395 /* BinaryDecodingOptions.swift in Sources */,
+				OBJ_396 /* BinaryDelimited.swift in Sources */,
+				OBJ_397 /* BinaryEncoder.swift in Sources */,
+				OBJ_398 /* BinaryEncodingError.swift in Sources */,
+				OBJ_399 /* BinaryEncodingSizeVisitor.swift in Sources */,
+				OBJ_400 /* BinaryEncodingVisitor.swift in Sources */,
+				OBJ_401 /* CustomJSONCodable.swift in Sources */,
+				OBJ_402 /* Data+Extensions.swift in Sources */,
+				OBJ_403 /* Decoder.swift in Sources */,
+				OBJ_404 /* DoubleParser.swift in Sources */,
+				OBJ_405 /* Enum.swift in Sources */,
+				OBJ_406 /* ExtensibleMessage.swift in Sources */,
+				OBJ_407 /* ExtensionFieldValueSet.swift in Sources */,
+				OBJ_408 /* ExtensionFields.swift in Sources */,
+				OBJ_409 /* ExtensionMap.swift in Sources */,
+				OBJ_410 /* FieldTag.swift in Sources */,
+				OBJ_411 /* FieldTypes.swift in Sources */,
+				OBJ_412 /* Google_Protobuf_Any+Extensions.swift in Sources */,
+				OBJ_413 /* Google_Protobuf_Any+Registry.swift in Sources */,
+				OBJ_414 /* Google_Protobuf_Duration+Extensions.swift in Sources */,
+				OBJ_415 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */,
+				OBJ_416 /* Google_Protobuf_ListValue+Extensions.swift in Sources */,
+				OBJ_417 /* Google_Protobuf_Struct+Extensions.swift in Sources */,
+				OBJ_418 /* Google_Protobuf_Timestamp+Extensions.swift in Sources */,
+				OBJ_419 /* Google_Protobuf_Value+Extensions.swift in Sources */,
+				OBJ_420 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */,
+				OBJ_421 /* HashVisitor.swift in Sources */,
+				OBJ_422 /* Internal.swift in Sources */,
+				OBJ_423 /* JSONDecoder.swift in Sources */,
+				OBJ_424 /* JSONDecodingError.swift in Sources */,
+				OBJ_425 /* JSONDecodingOptions.swift in Sources */,
+				OBJ_426 /* JSONEncoder.swift in Sources */,
+				OBJ_427 /* JSONEncodingError.swift in Sources */,
+				OBJ_428 /* JSONEncodingOptions.swift in Sources */,
+				OBJ_429 /* JSONEncodingVisitor.swift in Sources */,
+				OBJ_430 /* JSONMapEncodingVisitor.swift in Sources */,
+				OBJ_431 /* JSONScanner.swift in Sources */,
+				OBJ_432 /* MathUtils.swift in Sources */,
+				OBJ_433 /* Message+AnyAdditions.swift in Sources */,
+				OBJ_434 /* Message+BinaryAdditions.swift in Sources */,
+				OBJ_435 /* Message+JSONAdditions.swift in Sources */,
+				OBJ_436 /* Message+JSONArrayAdditions.swift in Sources */,
+				OBJ_437 /* Message+TextFormatAdditions.swift in Sources */,
+				OBJ_438 /* Message.swift in Sources */,
+				OBJ_439 /* MessageExtension.swift in Sources */,
+				OBJ_440 /* NameMap.swift in Sources */,
+				OBJ_441 /* ProtoNameProviding.swift in Sources */,
+				OBJ_442 /* ProtobufAPIVersionCheck.swift in Sources */,
+				OBJ_443 /* ProtobufMap.swift in Sources */,
+				OBJ_444 /* SelectiveVisitor.swift in Sources */,
+				OBJ_445 /* SimpleExtensionMap.swift in Sources */,
+				OBJ_446 /* StringUtils.swift in Sources */,
+				OBJ_447 /* TextFormatDecoder.swift in Sources */,
+				OBJ_448 /* TextFormatDecodingError.swift in Sources */,
+				OBJ_449 /* TextFormatEncoder.swift in Sources */,
+				OBJ_450 /* TextFormatEncodingOptions.swift in Sources */,
+				OBJ_451 /* TextFormatEncodingVisitor.swift in Sources */,
+				OBJ_452 /* TextFormatScanner.swift in Sources */,
+				OBJ_453 /* TimeUtils.swift in Sources */,
+				OBJ_454 /* UnknownStorage.swift in Sources */,
+				OBJ_455 /* Varint.swift in Sources */,
+				OBJ_456 /* Version.swift in Sources */,
+				OBJ_457 /* Visitor.swift in Sources */,
+				OBJ_458 /* WireFormat.swift in Sources */,
+				OBJ_459 /* ZigZag.swift in Sources */,
+				OBJ_460 /* any.pb.swift in Sources */,
+				OBJ_461 /* api.pb.swift in Sources */,
+				OBJ_462 /* duration.pb.swift in Sources */,
+				OBJ_463 /* empty.pb.swift in Sources */,
+				OBJ_464 /* field_mask.pb.swift in Sources */,
+				OBJ_465 /* source_context.pb.swift in Sources */,
+				OBJ_466 /* struct.pb.swift in Sources */,
+				OBJ_467 /* timestamp.pb.swift in Sources */,
+				OBJ_468 /* type.pb.swift in Sources */,
+				OBJ_469 /* wrappers.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_476 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_481 /* Context.swift in Sources */,
+				OBJ_482 /* Poller.swift in Sources */,
+				OBJ_483 /* Socket.swift in Sources */,
+				OBJ_484 /* ZeroMQSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_491 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_496 /* lax_der_parsing.c in Sources */,
+				OBJ_497 /* lax_der_privatekey_parsing.c in Sources */,
+				OBJ_498 /* secp256k1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_504 /* Exporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_513 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */;
+			targetProxy = 8192E0952305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ZeroMQSwift::ZeroMQSwift" /* ZeroMQSwift */;
+			targetProxy = 8192E0922305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "MPSCSwift::MPSCSwift" /* MPSCSwift */;
+			targetProxy = 8192E0932305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SawtoothSDKSwift::SawtoothProtoSwift" /* SawtoothProtoSwift */;
+			targetProxy = 8192E0942305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */;
+			targetProxy = 8192E0962305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SawtoothSDKSwift::SawtoothSigningTests" /* SawtoothSigningTests */;
+			targetProxy = 8192E09F2305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SawtoothSDKSwift::SawtoothSDKSwiftTests" /* SawtoothSDKSwiftTests */;
+			targetProxy = 8192E0A02305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SawtoothSDKSwift::SawtoothSDKSwift" /* SawtoothSDKSwift */;
+			targetProxy = 8192E09A2305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ZeroMQSwift::ZeroMQSwift" /* ZeroMQSwift */;
+			targetProxy = 8192E09B2305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "MPSCSwift::MPSCSwift" /* MPSCSwift */;
+			targetProxy = 8192E09C2305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SawtoothSDKSwift::SawtoothProtoSwift" /* SawtoothProtoSwift */;
+			targetProxy = 8192E09D2305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */;
+			targetProxy = 8192E09E2305684E006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::secp256k1" /* secp256k1 */;
+			targetProxy = 8192E08F2305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::libsecp256k1" /* libsecp256k1 */;
+			targetProxy = 8192E0912305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SawtoothSDKSwift::SawtoothSigning" /* SawtoothSigning */;
+			targetProxy = 8192E0972305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::secp256k1" /* secp256k1 */;
+			targetProxy = 8192E0982305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::libsecp256k1" /* libsecp256k1 */;
+			targetProxy = 8192E0992305684D006617BA /* PBXContainerItemProxy */;
+		};
+		OBJ_507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::libsecp256k1" /* libsecp256k1 */;
+			targetProxy = 8192E0902305684D006617BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/examples/xo_ios",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/MPSCSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MPSCSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = MPSCSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/examples/xo_ios",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/MPSCSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MPSCSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = MPSCSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothProtoSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothProtoSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothProtoSwift;
+			};
+			name = Debug;
+		};
+		OBJ_259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothProtoSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothProtoSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothProtoSwift;
+			};
+			name = Release;
+		};
+		OBJ_293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/ZeroMQSwift/Sources/zmq",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSDKSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/zeromq/4.3.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/zeromq/4.3.2/lib",
+					"-lzmq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/zeromq/4.3.2/include";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothSDKSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSDKSwift;
+			};
+			name = Debug;
+		};
+		OBJ_294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/ZeroMQSwift/Sources/zmq",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSDKSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/zeromq/4.3.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/zeromq/4.3.2/lib",
+					"-lzmq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/zeromq/4.3.2/include";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothSDKSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSDKSwift;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/ZeroMQSwift/Sources/zmq",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSDKSwiftTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/zeromq/4.3.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/zeromq/4.3.2/lib",
+					"-lzmq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/zeromq/4.3.2/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSDKSwiftTests;
+			};
+			name = Debug;
+		};
+		OBJ_332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/ZeroMQSwift/Sources/zmq",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSDKSwiftTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/zeromq/4.3.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/zeromq/4.3.2/lib",
+					"-lzmq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/zeromq/4.3.2/include";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSDKSwiftTests;
+			};
+			name = Release;
+		};
+		OBJ_355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSigning_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothSigning;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSigning;
+			};
+			name = Debug;
+		};
+		OBJ_356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSigning_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothSigning;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSigning;
+			};
+			name = Release;
+		};
+		OBJ_376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSigningTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSigningTests;
+			};
+			name = Debug;
+		};
+		OBJ_377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSigningTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSigningTests;
+			};
+			name = Release;
+		};
+		OBJ_388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SwiftProtobuf_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftProtobuf;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftProtobuf;
+			};
+			name = Debug;
+		};
+		OBJ_389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SwiftProtobuf_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftProtobuf;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftProtobuf;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/ZeroMQSwift/Sources/zmq",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/ZeroMQSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/zeromq/4.3.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/zeromq/4.3.2/lib",
+					"-lzmq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/zeromq/4.3.2/include";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeroMQSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ZeroMQSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/ZeroMQSwift/Sources/zmq",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/ZeroMQSwift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/zeromq/4.3.2/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/zeromq/4.3.2/lib",
+					"-lzmq",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/zeromq/4.3.2/include";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeroMQSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ZeroMQSwift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/libsecp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = libsecp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = libsecp256k1;
+			};
+			name = Debug;
+		};
+		OBJ_494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/libsecp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = libsecp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = libsecp256k1;
+			};
+			name = Release;
+		};
+		OBJ_501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/secp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = secp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = secp256k1;
+			};
+			name = Debug;
+		};
+		OBJ_502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/secp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = secp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = secp256k1;
+			};
+			name = Release;
+		};
+		OBJ_510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "SawtoothSDKSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_243 /* Build configuration list for PBXNativeTarget "MPSCSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_244 /* Debug */,
+				OBJ_245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_251 /* Build configuration list for PBXNativeTarget "MPSCSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_252 /* Debug */,
+				OBJ_253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_257 /* Build configuration list for PBXNativeTarget "SawtoothProtoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_258 /* Debug */,
+				OBJ_259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_292 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_293 /* Debug */,
+				OBJ_294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_317 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_318 /* Debug */,
+				OBJ_319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_323 /* Build configuration list for PBXAggregateTarget "SawtoothSDKSwiftPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_324 /* Debug */,
+				OBJ_325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_330 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_331 /* Debug */,
+				OBJ_332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_354 /* Build configuration list for PBXNativeTarget "SawtoothSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_355 /* Debug */,
+				OBJ_356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_375 /* Build configuration list for PBXNativeTarget "SawtoothSigningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_376 /* Debug */,
+				OBJ_377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_387 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_388 /* Debug */,
+				OBJ_389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_472 /* Build configuration list for PBXNativeTarget "SwiftProtobufPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_473 /* Debug */,
+				OBJ_474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_477 /* Build configuration list for PBXNativeTarget "ZeroMQSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_478 /* Debug */,
+				OBJ_479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_487 /* Build configuration list for PBXNativeTarget "ZeroMQSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_488 /* Debug */,
+				OBJ_489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_492 /* Build configuration list for PBXNativeTarget "libsecp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_493 /* Debug */,
+				OBJ_494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_500 /* Build configuration list for PBXNativeTarget "secp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_501 /* Debug */,
+				OBJ_502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_509 /* Build configuration list for PBXNativeTarget "secp256k1PackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_510 /* Debug */,
+				OBJ_511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

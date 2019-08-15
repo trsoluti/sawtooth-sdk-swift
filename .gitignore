@@ -24,6 +24,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
@@ -31,6 +32,6 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-*.xcworkspace
+## *.xcworkspace TOD: allow this to be synced back to server
 
 Carthage/

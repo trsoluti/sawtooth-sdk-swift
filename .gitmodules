@@ -1,0 +1,9 @@
+[submodule "Support/MPSCSwift"]
+	path = Support/MPSCSwift
+	url = ./
+[submodule "Support/ZeroMQSwift"]
+	path = Support/ZeroMQSwift
+	url = ./
+[submodule "examples/IntKey"]
+	path = examples/IntKey
+	url = ./
