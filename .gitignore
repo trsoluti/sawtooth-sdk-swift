@@ -31,6 +31,6 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-*.xcworkspace
+# *.xcworkspace # Trsoluti: include workspace in project
 
 Carthage/

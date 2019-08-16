@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift"
+      name = "sawtooth-sdk-swift">
+      <FileRef
+         location = "container:SawtoothSigning.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
