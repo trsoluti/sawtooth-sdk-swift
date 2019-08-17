@@ -15,7 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "SawtoothSigning",
-            dependencies: ["secp256k1"],
-            path: "SawtoothSigning"),
+            dependencies: ["secp256k1"]),
     ]
 )

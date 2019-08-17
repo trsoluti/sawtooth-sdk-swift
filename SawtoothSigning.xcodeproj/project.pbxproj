@@ -67,6 +67,7 @@
 		4700C7AE21EFDFBC0074E7E4 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		4700C7B121EFE0A00074E7E4 /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = Carthage/Build/iOS/secp256k1.framework; sourceTree = "<group>"; };
 		47E8214421F66F5B001C6A6B /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = Carthage/Build/iOS/secp256k1.framework; sourceTree = "<group>"; };
+		8138A7762307E09A0078B889 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +94,10 @@
 		4700C77821EFDCC40074E7E4 = {
 			isa = PBXGroup;
 			children = (
+				8138A7762307E09A0078B889 /* Package.swift */,
+				8138A7742307DF160078B889 /* Sources */,
+				8138A7752307DF490078B889 /* Tests */,
 				47E8214421F66F5B001C6A6B /* secp256k1.framework */,
-				4700C78421EFDCC40074E7E4 /* SawtoothSigning */,
-				4700C78F21EFDCC40074E7E4 /* SawtoothSigningTests */,
 				4700C78321EFDCC40074E7E4 /* Products */,
 				4700C7B021EFE0A00074E7E4 /* Frameworks */,
 			);
@@ -144,6 +146,22 @@
 				4700C7B121EFE0A00074E7E4 /* secp256k1.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8138A7742307DF160078B889 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4700C78421EFDCC40074E7E4 /* SawtoothSigning */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8138A7752307DF490078B889 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4700C78F21EFDCC40074E7E4 /* SawtoothSigningTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,7 +464,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SawtoothSigning/Info.plist;
+				INFOPLIST_FILE = Sources/SawtoothSigning/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +496,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SawtoothSigning/Info.plist;
+				INFOPLIST_FILE = Sources/SawtoothSigning/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,7 +521,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SawtoothSigningTests/Info.plist;
+				INFOPLIST_FILE = Tests/SawtoothSigningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +544,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SawtoothSigningTests/Info.plist;
+				INFOPLIST_FILE = Tests/SawtoothSigningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
