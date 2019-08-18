@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SawtoothSigning",
+    name: "SawtoothSDKSwift",
     products: [
         .library(name: "SawtoothSigning", targets: ["SawtoothSigning"])
     ],
@@ -15,7 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "SawtoothSigning",
-            dependencies: ["secp256k1"],
-            path: "SawtoothSigning"),
+            dependencies: ["secp256k1"]),
     ]
 )

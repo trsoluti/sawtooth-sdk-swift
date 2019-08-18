@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		OBJ_105 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Package.swift */; };
+		OBJ_61 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_67 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Context.swift */; };
+		OBJ_68 /* CryptoFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CryptoFactory.swift */; };
+		OBJ_69 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Encoding.swift */; };
+		OBJ_70 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Error.swift */; };
+		OBJ_71 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* PrivateKey.swift */; };
+		OBJ_72 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* PublicKey.swift */; };
+		OBJ_73 /* Secp256k1Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Secp256k1Context.swift */; };
+		OBJ_74 /* Secp256k1PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Secp256k1PrivateKey.swift */; };
+		OBJ_75 /* Secp256k1PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Secp256k1PublicKey.swift */; };
+		OBJ_76 /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Signer.swift */; };
+		OBJ_78 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::secp256k1::Product" /* secp256k1.framework */; };
+		OBJ_79 /* libsecp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */; };
+		OBJ_88 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* lax_der_parsing.c */; };
+		OBJ_89 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* lax_der_privatekey_parsing.c */; };
+		OBJ_90 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* secp256k1.c */; };
+		OBJ_96 /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Exporter.swift */; };
+		OBJ_98 /* libsecp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81EB5D67230988FB003331D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::secp256k1";
+			remoteInfo = secp256k1;
+		};
+		81EB5D68230988FB003331D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::libsecp256k1";
+			remoteInfo = libsecp256k1;
+		};
+		81EB5D69230988FB003331D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "secp256k1::libsecp256k1";
+			remoteInfo = libsecp256k1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_11 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CryptoFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFactory.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_15 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_16 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Secp256k1Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1Context.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Secp256k1PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1PrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Secp256k1PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1PublicKey.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Signer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signer.swift; sourceTree = "<group>"; };
+		OBJ_27 /* lax_der_parsing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lax_der_parsing.c; sourceTree = "<group>"; };
+		OBJ_28 /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		OBJ_30 /* secp256k1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		OBJ_32 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
+		OBJ_33 /* secp256k1_recovery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
+		OBJ_34 /* secp256k1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		OBJ_35 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_37 /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/secp256k1.swift/Package.swift"; sourceTree = "<group>"; };
+		OBJ_43 /* protos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = protos; sourceTree = SOURCE_ROOT; };
+		OBJ_44 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = SOURCE_ROOT; };
+		OBJ_45 /* ci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci; sourceTree = SOURCE_ROOT; };
+		OBJ_46 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
+		OBJ_47 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = SOURCE_ROOT; };
+		OBJ_50 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_51 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		OBJ_52 /* CODEOWNERS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
+		OBJ_53 /* MAINTAINERS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MAINTAINERS.md; sourceTree = "<group>"; };
+		OBJ_54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_55 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* SawtoothSigning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SawtoothSigning.h; sourceTree = "<group>"; };
+		"SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SawtoothSigning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsecp256k1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"secp256k1::secp256k1::Product" /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = secp256k1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_78 /* secp256k1.framework in Frameworks */,
+				OBJ_79 /* libsecp256k1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_98 /* libsecp256k1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_21 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_22 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* secp256k1 0.1.4 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_23 /* secp256k1 0.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* libsecp256k1 */,
+				OBJ_36 /* secp256k1 */,
+				OBJ_38 /* Package.swift */,
+			);
+			name = "secp256k1 0.1.4";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* libsecp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* secp256k1 */,
+			);
+			name = libsecp256k1;
+			path = .build/checkouts/secp256k1.swift/secp256k1/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* secp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* contrib */,
+				OBJ_29 /* src */,
+				OBJ_31 /* include */,
+			);
+			path = secp256k1;
+			sourceTree = "<group>";
+		};
+		OBJ_26 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* lax_der_parsing.c */,
+				OBJ_28 /* lax_der_privatekey_parsing.c */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		OBJ_29 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* secp256k1.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* secp256k1_ecdh.h */,
+				OBJ_33 /* secp256k1_recovery.h */,
+				OBJ_34 /* secp256k1.h */,
+				OBJ_35 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_36 /* secp256k1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* Exporter.swift */,
+			);
+			name = secp256k1;
+			path = .build/checkouts/secp256k1.swift/secp256k1/Classes/exporter;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */,
+				"secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */,
+				"secp256k1::secp256k1::Product" /* secp256k1.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_21 /* Tests */,
+				OBJ_22 /* Dependencies */,
+				OBJ_39 /* Products */,
+				OBJ_43 /* protos */,
+				OBJ_44 /* bin */,
+				OBJ_45 /* ci */,
+				OBJ_46 /* docs */,
+				OBJ_47 /* examples */,
+				OBJ_50 /* LICENSE */,
+				OBJ_51 /* Cartfile */,
+				OBJ_52 /* CODEOWNERS */,
+				OBJ_53 /* MAINTAINERS.md */,
+				OBJ_54 /* README.md */,
+				OBJ_55 /* Jenkinsfile */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SawtoothSigning */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SawtoothSigning */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* SawtoothSigning.h */,
+				OBJ_10 /* Info.plist */,
+				OBJ_11 /* Context.swift */,
+				OBJ_12 /* CryptoFactory.swift */,
+				OBJ_13 /* Encoding.swift */,
+				OBJ_14 /* Error.swift */,
+				OBJ_15 /* PrivateKey.swift */,
+				OBJ_16 /* PublicKey.swift */,
+				OBJ_17 /* Secp256k1Context.swift */,
+				OBJ_18 /* Secp256k1PrivateKey.swift */,
+				OBJ_19 /* Secp256k1PublicKey.swift */,
+				OBJ_20 /* Signer.swift */,
+			);
+			name = SawtoothSigning;
+			path = Sources/SawtoothSigning;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SawtoothSDKSwift::SawtoothSigning" /* SawtoothSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_63 /* Build configuration list for PBXNativeTarget "SawtoothSigning" */;
+			buildPhases = (
+				OBJ_66 /* Sources */,
+				OBJ_77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_80 /* PBXTargetDependency */,
+				OBJ_82 /* PBXTargetDependency */,
+			);
+			name = SawtoothSigning;
+			productName = SawtoothSigning;
+			productReference = "SawtoothSDKSwift::SawtoothSigning::Product" /* SawtoothSigning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SawtoothSDKSwift::SwiftPMPackageDescription" /* SawtoothSDKSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_57 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_60 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SawtoothSDKSwiftPackageDescription;
+			productName = SawtoothSDKSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"secp256k1::SwiftPMPackageDescription" /* secp256k1PackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_101 /* Build configuration list for PBXNativeTarget "secp256k1PackageDescription" */;
+			buildPhases = (
+				OBJ_104 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = secp256k1PackageDescription;
+			productName = secp256k1PackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"secp256k1::libsecp256k1" /* libsecp256k1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_84 /* Build configuration list for PBXNativeTarget "libsecp256k1" */;
+			buildPhases = (
+				OBJ_87 /* Sources */,
+				OBJ_91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libsecp256k1;
+			productName = libsecp256k1;
+			productReference = "secp256k1::libsecp256k1::Product" /* libsecp256k1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"secp256k1::secp256k1" /* secp256k1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "secp256k1" */;
+			buildPhases = (
+				OBJ_95 /* Sources */,
+				OBJ_97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_99 /* PBXTargetDependency */,
+			);
+			name = secp256k1;
+			productName = secp256k1;
+			productReference = "secp256k1::secp256k1::Product" /* secp256k1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SawtoothSDKSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SawtoothSDKSwift::SwiftPMPackageDescription" /* SawtoothSDKSwiftPackageDescription */,
+				"SawtoothSDKSwift::SawtoothSigning" /* SawtoothSigning */,
+				"secp256k1::libsecp256k1" /* libsecp256k1 */,
+				"secp256k1::secp256k1" /* secp256k1 */,
+				"secp256k1::SwiftPMPackageDescription" /* secp256k1PackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_105 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_61 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_67 /* Context.swift in Sources */,
+				OBJ_68 /* CryptoFactory.swift in Sources */,
+				OBJ_69 /* Encoding.swift in Sources */,
+				OBJ_70 /* Error.swift in Sources */,
+				OBJ_71 /* PrivateKey.swift in Sources */,
+				OBJ_72 /* PublicKey.swift in Sources */,
+				OBJ_73 /* Secp256k1Context.swift in Sources */,
+				OBJ_74 /* Secp256k1PrivateKey.swift in Sources */,
+				OBJ_75 /* Secp256k1PublicKey.swift in Sources */,
+				OBJ_76 /* Signer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_88 /* lax_der_parsing.c in Sources */,
+				OBJ_89 /* lax_der_privatekey_parsing.c in Sources */,
+				OBJ_90 /* secp256k1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* Exporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::secp256k1" /* secp256k1 */;
+			targetProxy = 81EB5D67230988FB003331D5 /* PBXContainerItemProxy */;
+		};
+		OBJ_82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::libsecp256k1" /* libsecp256k1 */;
+			targetProxy = 81EB5D69230988FB003331D5 /* PBXContainerItemProxy */;
+		};
+		OBJ_99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "secp256k1::libsecp256k1" /* libsecp256k1 */;
+			targetProxy = 81EB5D68230988FB003331D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSigning_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothSigning;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSigning;
+			};
+			name = Debug;
+		};
+		OBJ_65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/SawtoothSigning_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = SawtoothSigning;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SawtoothSigning;
+			};
+			name = Release;
+		};
+		OBJ_85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/libsecp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = libsecp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = libsecp256k1;
+			};
+			name = Debug;
+		};
+		OBJ_86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/libsecp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = libsecp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = libsecp256k1;
+			};
+			name = Release;
+		};
+		OBJ_93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/secp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = secp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = secp256k1;
+			};
+			name = Debug;
+		};
+		OBJ_94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include",
+					"$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1",
+				);
+				INFOPLIST_FILE = SawtoothSDKSwift.xcodeproj/secp256k1_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/SawtoothSDKSwift.xcodeproj/GeneratedModuleMap/libsecp256k1/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = secp256k1;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = secp256k1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_101 /* Build configuration list for PBXNativeTarget "secp256k1PackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_102 /* Debug */,
+				OBJ_103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SawtoothSDKSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_57 /* Build configuration list for PBXNativeTarget "SawtoothSDKSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_58 /* Debug */,
+				OBJ_59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_63 /* Build configuration list for PBXNativeTarget "SawtoothSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_64 /* Debug */,
+				OBJ_65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_84 /* Build configuration list for PBXNativeTarget "libsecp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_85 /* Debug */,
+				OBJ_86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_92 /* Build configuration list for PBXNativeTarget "secp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

@@ -1,0 +1,4 @@
+module libsecp256k1 {
+    umbrella "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/secp256k1.swift/secp256k1/Classes/secp256k1/include"
+    export *
+}

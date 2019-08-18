@@ -4,8 +4,41 @@
    <Group
       location = "group:"
       name = "sawtooth-sdk-swift">
+      <FileRef
+         location = "container:/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/SawtoothSDKSwift.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:protos">
+      </FileRef>
+      <FileRef
+         location = "group:bin">
+      </FileRef>
+      <FileRef
+         location = "group:ci">
+      </FileRef>
+      <FileRef
+         location = "group:docs">
+      </FileRef>
+      <FileRef
+         location = "group:examples">
+      </FileRef>
+      <FileRef
+         location = "group:LICENSE">
+      </FileRef>
+      <FileRef
+         location = "group:Cartfile">
+      </FileRef>
+      <FileRef
+         location = "group:CODEOWNERS">
+      </FileRef>
+      <FileRef
+         location = "group:MAINTAINERS.md">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:Jenkinsfile">
+      </FileRef>
    </Group>
-   <FileRef
-      location = "container:SawtoothSigning.xcodeproj">
-   </FileRef>
 </Workspace>
