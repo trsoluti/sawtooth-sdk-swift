@@ -93,6 +93,7 @@
 		4700C77821EFDCC40074E7E4 = {
 			isa = PBXGroup;
 			children = (
+				81EB5D6323098539003331D5 /* sawtooth-sdk-swift */,
 				47E8214421F66F5B001C6A6B /* secp256k1.framework */,
 				4700C78421EFDCC40074E7E4 /* SawtoothSigning */,
 				4700C78F21EFDCC40074E7E4 /* SawtoothSigningTests */,
@@ -144,6 +145,13 @@
 				4700C7B121EFE0A00074E7E4 /* secp256k1.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81EB5D6323098539003331D5 /* sawtooth-sdk-swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "sawtooth-sdk-swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
