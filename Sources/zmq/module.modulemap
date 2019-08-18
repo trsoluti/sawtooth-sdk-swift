@@ -1,0 +1,5 @@
+module zmq [system] {
+  umbrella header "Czmq.h"
+  link "zmq"
+  export *
+}

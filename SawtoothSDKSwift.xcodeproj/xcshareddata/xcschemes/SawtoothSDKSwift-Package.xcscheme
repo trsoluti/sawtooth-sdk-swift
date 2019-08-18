@@ -20,6 +20,62 @@
                ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::MPSCSwift"
+               BuildableName = "MPSCSwift.framework"
+               BlueprintName = "MPSCSwift"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::SawtoothProtoSwift"
+               BuildableName = "SawtoothProtoSwift.framework"
+               BlueprintName = "SawtoothProtoSwift"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::ZeroMQSwift"
+               BuildableName = "ZeroMQSwift.framework"
+               BlueprintName = "ZeroMQSwift"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::SawtoothSDKSwift"
+               BuildableName = "SawtoothSDKSwift.framework"
+               BlueprintName = "SawtoothSDKSwift"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,6 +84,46 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::MPSCSwiftTests"
+               BuildableName = "MPSCSwiftTests.xctest"
+               BlueprintName = "MPSCSwiftTests"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::SawtoothSDKSwiftTests"
+               BuildableName = "SawtoothSDKSwiftTests.xctest"
+               BlueprintName = "SawtoothSDKSwiftTests"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::ZeroMQSwiftTests"
+               BuildableName = "ZeroMQSwiftTests.xctest"
+               BlueprintName = "ZeroMQSwiftTests"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SawtoothSDKSwift::SawtoothSigningTests"
+               BuildableName = "SawtoothSigningTests.xctest"
+               BlueprintName = "SawtoothSigningTests"
+               ReferencedContainer = "container:SawtoothSDKSwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
