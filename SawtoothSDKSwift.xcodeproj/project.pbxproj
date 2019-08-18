@@ -469,20 +469,8 @@
 		OBJ_22 /* client_state.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_state.proto; sourceTree = "<group>"; };
 		OBJ_220 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Teaching/Documents/Programs/Xcode/sawtooth-sdk-swift/.build/checkouts/swift-protobuf/Package.swift"; sourceTree = "<group>"; };
 		OBJ_23 /* batch.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = batch.proto; sourceTree = "<group>"; };
-		OBJ_234 /* protos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = protos; sourceTree = SOURCE_ROOT; };
-		OBJ_235 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = SOURCE_ROOT; };
-		OBJ_236 /* ci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci; sourceTree = SOURCE_ROOT; };
-		OBJ_237 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
-		OBJ_238 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = SOURCE_ROOT; };
-		OBJ_239 /* sawtooth-sdk-swift.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "sawtooth-sdk-swift.xcworkspace"; sourceTree = SOURCE_ROOT; };
 		OBJ_24 /* authorization.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = authorization.proto; sourceTree = "<group>"; };
-		OBJ_240 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
-		OBJ_241 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_242 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		OBJ_243 /* CODEOWNERS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
-		OBJ_244 /* MAINTAINERS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MAINTAINERS.md; sourceTree = "<group>"; };
-		OBJ_245 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		OBJ_246 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		OBJ_25 /* identity.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = identity.proto; sourceTree = "<group>"; };
 		OBJ_26 /* setting.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = setting.proto; sourceTree = "<group>"; };
 		OBJ_27 /* client_status.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = client_status.proto; sourceTree = "<group>"; };
@@ -1006,7 +994,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1014,21 +1002,8 @@
 				OBJ_100 /* Tests */,
 				OBJ_119 /* Dependencies */,
 				OBJ_221 /* Products */,
-				OBJ_234 /* protos */,
-				OBJ_235 /* bin */,
-				OBJ_236 /* ci */,
-				OBJ_237 /* docs */,
-				OBJ_238 /* examples */,
-				OBJ_239 /* sawtooth-sdk-swift.xcworkspace */,
-				OBJ_240 /* Cartfile.resolved */,
-				OBJ_241 /* LICENSE */,
 				OBJ_242 /* Cartfile */,
-				OBJ_243 /* CODEOWNERS */,
-				OBJ_244 /* MAINTAINERS.md */,
-				OBJ_245 /* README.md */,
-				OBJ_246 /* Jenkinsfile */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_64 /* SawtoothSDKSwift */ = {
@@ -1418,7 +1393,7 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_221 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
