@@ -23,6 +23,9 @@
 		4700C7B221EFE0A00074E7E4 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4700C7B121EFE0A00074E7E4 /* secp256k1.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		47E8212421F61E37001C6A6B /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4700C7B121EFE0A00074E7E4 /* secp256k1.framework */; };
 		47E8214521F66F5B001C6A6B /* secp256k1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47E8214421F66F5B001C6A6B /* secp256k1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		81EB5BE723097A12003331D5 /* ZeroMQSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EB5BDE23097A11003331D5 /* ZeroMQSwift.framework */; };
+		81EB5BEC23097A12003331D5 /* ZeroMQSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB5BEB23097A12003331D5 /* ZeroMQSwiftTests.swift */; };
+		81EB5BEE23097A12003331D5 /* ZeroMQSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EB5BE023097A12003331D5 /* ZeroMQSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4700C78121EFDCC40074E7E4;
 			remoteInfo = SawtoothSigning;
+		};
+		81EB5BE823097A12003331D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4700C77921EFDCC40074E7E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EB5BDD23097A11003331D5;
+			remoteInfo = ZeroMQSwift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -68,6 +78,12 @@
 		4700C7B121EFE0A00074E7E4 /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = Carthage/Build/iOS/secp256k1.framework; sourceTree = "<group>"; };
 		47E8214421F66F5B001C6A6B /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = Carthage/Build/iOS/secp256k1.framework; sourceTree = "<group>"; };
 		8138A7762307E09A0078B889 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		81EB5BDE23097A11003331D5 /* ZeroMQSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZeroMQSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EB5BE023097A12003331D5 /* ZeroMQSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroMQSwift.h; sourceTree = "<group>"; };
+		81EB5BE123097A12003331D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EB5BE623097A12003331D5 /* ZeroMQSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroMQSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EB5BEB23097A12003331D5 /* ZeroMQSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroMQSwiftTests.swift; sourceTree = "<group>"; };
+		81EB5BED23097A12003331D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,21 @@
 			files = (
 				47E8212421F61E37001C6A6B /* secp256k1.framework in Frameworks */,
 				4700C78C21EFDCC40074E7E4 /* SawtoothSigning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5BDB23097A11003331D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5BE323097A12003331D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EB5BE723097A12003331D5 /* ZeroMQSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +139,8 @@
 			children = (
 				4700C78221EFDCC40074E7E4 /* SawtoothSigning.framework */,
 				4700C78B21EFDCC40074E7E4 /* SawtoothSigningTests.xctest */,
+				81EB5BDE23097A11003331D5 /* ZeroMQSwift.framework */,
+				81EB5BE623097A12003331D5 /* ZeroMQSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				4700C78421EFDCC40074E7E4 /* SawtoothSigning */,
+				81EB5BDF23097A12003331D5 /* ZeroMQSwift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -160,8 +194,27 @@
 			isa = PBXGroup;
 			children = (
 				4700C78F21EFDCC40074E7E4 /* SawtoothSigningTests */,
+				81EB5BEA23097A12003331D5 /* ZeroMQSwiftTests */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		81EB5BDF23097A12003331D5 /* ZeroMQSwift */ = {
+			isa = PBXGroup;
+			children = (
+				81EB5BE023097A12003331D5 /* ZeroMQSwift.h */,
+				81EB5BE123097A12003331D5 /* Info.plist */,
+			);
+			path = ZeroMQSwift;
+			sourceTree = "<group>";
+		};
+		81EB5BEA23097A12003331D5 /* ZeroMQSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				81EB5BEB23097A12003331D5 /* ZeroMQSwiftTests.swift */,
+				81EB5BED23097A12003331D5 /* Info.plist */,
+			);
+			path = ZeroMQSwiftTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4700C79321EFDCC40074E7E4 /* SawtoothSigning.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5BD923097A11003331D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EB5BEE23097A12003331D5 /* ZeroMQSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,13 +277,49 @@
 			productReference = 4700C78B21EFDCC40074E7E4 /* SawtoothSigningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		81EB5BDD23097A11003331D5 /* ZeroMQSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EB5BF323097A12003331D5 /* Build configuration list for PBXNativeTarget "ZeroMQSwift" */;
+			buildPhases = (
+				81EB5BD923097A11003331D5 /* Headers */,
+				81EB5BDA23097A11003331D5 /* Sources */,
+				81EB5BDB23097A11003331D5 /* Frameworks */,
+				81EB5BDC23097A11003331D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroMQSwift;
+			productName = ZeroMQSwift;
+			productReference = 81EB5BDE23097A11003331D5 /* ZeroMQSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81EB5BE523097A12003331D5 /* ZeroMQSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EB5BF423097A12003331D5 /* Build configuration list for PBXNativeTarget "ZeroMQSwiftTests" */;
+			buildPhases = (
+				81EB5BE223097A12003331D5 /* Sources */,
+				81EB5BE323097A12003331D5 /* Frameworks */,
+				81EB5BE423097A12003331D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EB5BE923097A12003331D5 /* PBXTargetDependency */,
+			);
+			name = ZeroMQSwiftTests;
+			productName = ZeroMQSwiftTests;
+			productReference = 81EB5BE623097A12003331D5 /* ZeroMQSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4700C77921EFDCC40074E7E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Bitwise IO";
 				TargetAttributes = {
@@ -232,6 +329,12 @@
 					};
 					4700C78A21EFDCC40074E7E4 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					81EB5BDD23097A11003331D5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					81EB5BE523097A12003331D5 = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
@@ -249,6 +352,8 @@
 			targets = (
 				4700C78121EFDCC40074E7E4 /* SawtoothSigning */,
 				4700C78A21EFDCC40074E7E4 /* SawtoothSigningTests */,
+				81EB5BDD23097A11003331D5 /* ZeroMQSwift */,
+				81EB5BE523097A12003331D5 /* ZeroMQSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +367,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4700C78921EFDCC40074E7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5BDC23097A11003331D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5BE423097A12003331D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,6 +435,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81EB5BDA23097A11003331D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5BE223097A12003331D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EB5BEC23097A12003331D5 /* ZeroMQSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -323,6 +457,11 @@
 			isa = PBXTargetDependency;
 			target = 4700C78121EFDCC40074E7E4 /* SawtoothSigning */;
 			targetProxy = 4700C78D21EFDCC40074E7E4 /* PBXContainerItemProxy */;
+		};
+		81EB5BE923097A12003331D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EB5BDD23097A11003331D5 /* ZeroMQSwift */;
+			targetProxy = 81EB5BE823097A12003331D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -384,6 +523,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator macos iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -441,6 +581,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator macos iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -558,6 +699,108 @@
 			};
 			name = Release;
 		};
+		81EB5BEF23097A12003331D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/ZeroMQSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.trsolutions.ZeroMQSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81EB5BF023097A12003331D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/ZeroMQSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.trsolutions.ZeroMQSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		81EB5BF123097A12003331D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFWA9KWZM9;
+				INFOPLIST_FILE = Tests/ZeroMQSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.trsolutions.ZeroMQSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		81EB5BF223097A12003331D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFWA9KWZM9;
+				INFOPLIST_FILE = Tests/ZeroMQSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.trsolutions.ZeroMQSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -584,6 +827,24 @@
 			buildConfigurations = (
 				4700C79A21EFDCC40074E7E4 /* Debug */,
 				4700C79B21EFDCC40074E7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EB5BF323097A12003331D5 /* Build configuration list for PBXNativeTarget "ZeroMQSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EB5BEF23097A12003331D5 /* Debug */,
+				81EB5BF023097A12003331D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EB5BF423097A12003331D5 /* Build configuration list for PBXNativeTarget "ZeroMQSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EB5BF123097A12003331D5 /* Debug */,
+				81EB5BF223097A12003331D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
